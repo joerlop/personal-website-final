@@ -15,16 +15,16 @@ function Home() {
       <Navigation>
         <NavLink to="/" className="logo">Jonathan Erlich</NavLink>
         <Nav>
-          <NavLink to="/" className="nav-item" activeStyle={{color: `#C49B66`}}>
+          <NavLink exact to="/" className="nav-item" activeStyle={{color: `#C49B66`}}>
             Home
           </NavLink>
-          <NavLink to="/portfolio" className="nav-item" activeStyle={{color: `#C49B66`}}>
+          <NavLink exact to="/portfolio" className="nav-item" activeStyle={{color: `#C49B66`}}>
             Portfolio
           </NavLink>
-          <NavLink to="/articles" className="nav-item" activeStyle={{color: `#C49B66`}}>
+          <NavLink exact to="/articles" className="nav-item" activeStyle={{color: `#C49B66`}}>
             Articles
           </NavLink>
-          <NavLink to="/resources" className="nav-item" activeStyle={{color: `#C49B66`}}>
+          <NavLink exact to="/resources" className="nav-item" activeStyle={{color: `#C49B66`}}>
             Crypto Resources
           </NavLink>
         </Nav>
