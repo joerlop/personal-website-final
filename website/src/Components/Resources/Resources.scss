@@ -1,0 +1,117 @@
+.resources-main-container {
+    background: #131414;
+    height: 100vh;
+
+    .nav-background {
+        background: #040404;
+        opacity: 0.9;
+        height: 70px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+
+        @media (max-width: 900px) {
+            height: 110px;
+        }
+    }
+
+    .resources-content {
+        background: #131414;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+
+        @media (max-width: 900px) {
+            margin-top: 110px;
+        }
+
+        h1, h2 {
+            color: whitesmoke;
+            margin: 0;
+        }
+
+        p {
+            color: #A3A3A3;
+        }
+
+        .resources-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 75%;
+            padding: 2.5% 0;
+
+            @media (max-width: 900px) {
+                padding: 4% 0;
+            }
+
+            h1 {
+                font-size: 3.5rem;
+                margin-bottom: 3%;
+
+                @media (max-width: 900px) {
+                    font-size: 3.2rem;
+                    margin-bottom: 5%;
+                }
+            }
+
+            h2 {
+                width: 60%;
+                font-size: 2rem;
+                font-weight: normal;
+                line-height: 1.5;
+
+                @media (max-width: 900px) {
+                    width: 75%;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        .resources {
+            width: 75%;
+            border-top: 3px dotted #A3A3A3;
+            padding: 2.5% 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            @media (max-width: 900px) {
+                padding: 4% 0;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .resource {
+                width: 45%;
+                text-align: center;
+                margin-bottom: 2%;
+
+                @media (max-width: 900px) {
+                    width: 100%;
+                }
+
+                h1 {
+                    font-size: 2rem;
+                    padding-bottom: 2%;
+
+                    @media (max-width: 900px) {
+                        padding-bottom: 6%;
+                    }
+                }
+
+                a {
+                    display: block;
+                    font-size: 1.4rem;
+                    color: #A3A3A3;
+                    padding-bottom: 1%;
+
+                    @media (max-width: 900px) {
+                        padding-bottom: 4%;
+                    }
+                }
+            }
+        }
+    }
+}

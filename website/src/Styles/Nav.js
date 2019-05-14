@@ -14,6 +14,13 @@ const Nav = styled.nav`
     color: whitesmoke;
     margin-left: 4%;
     text-decoration: none;
+
+    @media (max-width: 700px) {
+      :first-child {
+        margin-left: 0;
+      }
+    }
+  
     
     :hover {
       opacity: 0.7
