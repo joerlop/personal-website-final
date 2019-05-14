@@ -1,0 +1,62 @@
+.home-main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../Images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+
+    .content {
+        color: whitesmoke;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+    
+        h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            width: 75%;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            width: 75%;
+
+            @media (max-width: 900px) {
+                margin-bottom: 2%;
+            }
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            a {
+                margin: 1.5% 0.5%;
+                
+                img {
+                    height: 45px;
+                    margin: 1% 0.5%;    
+
+                    @media (max-width: 900px) {
+                        height: 40px;
+                        margin: 1% 3%;
+                    }
+                }
+            }
+
+            img {
+                margin: 1.5% 0.5%;
+                height: 45px;
+            }
+        }
+    }
+}
