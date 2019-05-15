@@ -10,6 +10,10 @@
     background-color: grey;
     background-blend-mode: multiply;
 
+    @media (max-width: 700px) {
+        background-image: url("../../Images/home-phone.jpg");
+    }
+
     .content {
         color: whitesmoke;
         height: 100%;
