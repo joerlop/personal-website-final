@@ -10,7 +10,6 @@ const Nav = styled.nav`
   font-size: 1.4rem; 
 
   .nav-item {
-    font-weight: bold;
     color: whitesmoke;
     margin-left: 4%;
     text-decoration: none;
@@ -20,7 +19,6 @@ const Nav = styled.nav`
         margin-left: 0;
       }
     }
-  
     
     :hover {
       opacity: 0.7

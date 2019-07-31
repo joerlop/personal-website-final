@@ -3,11 +3,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("../../Images/home3.jpg");
+    background-image: url("../../Images/home40.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: grey;
+    // background-color: grey;
     background-blend-mode: multiply;
 
     @media (max-width: 700px) {
@@ -32,8 +32,9 @@
         h2 {
             font-size: 2rem;
             width: 75%;
+            font-weight: 500;
 
-            @media (max-width: 900px) {
+            @media (max-width: 700px) {
                 margin-bottom: 2%;
             }
         }
@@ -44,14 +45,14 @@
             width: 100%;
 
             a {
-                margin: 1.5% 0.5%;
+                margin: 1.5% 0.25%;
                 
                 img {
-                    height: 45px;
+                    height: 30px;
                     margin: 1% 0.5%;    
 
-                    @media (max-width: 900px) {
-                        height: 40px;
+                    @media (max-width: 700px) {
+                        height: 30px;
                         margin: 1% 3%;
                     }
                 }

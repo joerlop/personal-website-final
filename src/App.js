@@ -19,13 +19,12 @@ function App() {
           Jonathan Erlich
         </NavLink>
         <Nav>
-          <NavLink
-            exact
-            to="/"
+        <NavLink
+            to="/cv"
             className="nav-item"
             activeStyle={{ color: `#C49B66` }}
           >
-            Home
+            CV
           </NavLink>
           <NavLink
             to="/portfolio"
@@ -33,22 +32,6 @@ function App() {
             activeStyle={{ color: `#C49B66` }}
           >
             Portfolio
-          </NavLink>
-          <NavLink
-            exact={false}
-            to="/articles"
-            className="nav-item"
-            activeStyle={{ color: `#C49B66` }}
-          >
-            Articles
-          </NavLink>
-          <NavLink
-            exact
-            to="/resources"
-            className="nav-item"
-            activeStyle={{ color: `#C49B66` }}
-          >
-            Crypto Resources
           </NavLink>
         </Nav>
       </Navigation>

@@ -6,15 +6,15 @@ const Navigation = styled.div`
   width: 100%;
   color: whitesmoke;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 70px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px;
   grid-template-areas: "logo nav";
   grid-row-gap: 0;
   z-index: 1;
 
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 55px 55px;
+    grid-template-rows: 75px 75px;
     grid-template-areas: 
       "logo"
       "nav";
@@ -22,7 +22,6 @@ const Navigation = styled.div`
 
   .logo {
     font-size: 2rem;
-    font-weight: bold;
     color: whitesmoke;
     text-decoration: none;
     grid-area: logo;
