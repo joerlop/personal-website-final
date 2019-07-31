@@ -14,7 +14,7 @@ const Navigation = styled.div`
 
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 75px;
+    grid-template-rows: 70px 60px;
     grid-template-areas: 
       "logo"
       "nav";
@@ -27,6 +27,10 @@ const Navigation = styled.div`
     grid-area: logo;
     align-self: center;
     justify-self: center;
+
+    @media (max-width: 700px) {
+      align-self: end;
+    }
 
     :hover {
       opacity: 0.7;
