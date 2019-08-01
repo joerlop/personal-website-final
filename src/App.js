@@ -33,10 +33,7 @@ function App() {
         </Nav>
       </Navigation>
       <Route exact path="/" render={routeProps => <Home />} />
-      <Route exact path="/articles" render={routeProps => <Articles />} />
       <Route exact path="/portfolio" render={routeProps => <Portfolio />} />
-      <Route exact path="/resources" render={routeProps => <Resources />} />
-      <Route exact path="/articles/1" render={routeProps => <Article1 />} />
     </div>
   );
 }
