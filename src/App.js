@@ -3,10 +3,7 @@ import './App.scss';
 import { Route, NavLink } from "react-router-dom";
 
 import Home from "./Components/Home/Home"
-import Articles from "./Components/Articles/Articles"
 import Portfolio from "./Components/Portfolio/Portfolio"
-import Resources from "./Components/Resources/Resources"
-import Article1 from "./Components/Article/Article1"
 
 import Navigation from "./Styles/Navigation"
 import Nav from "./Styles/Nav"
